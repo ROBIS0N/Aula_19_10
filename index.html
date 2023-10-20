@@ -19,39 +19,65 @@
                 Larika
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
-            aria-controls="navbarMain" aria-expanded="false">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMain">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home Page</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="menuLink" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">Cardapio</a>
-                    <ul class="dropdown-menu" aria-labelledby="menuLink">
-                        <li>
-                            <a class="dropdown-item" href="Hamburger"></a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Hot Dog</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Batatas Recheadas</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Petiscos</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Bebidas</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+                aria-controls="navbarMain" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home Page</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Cardapio</a>
+                        <ul class="dropdown-menu" aria-labelledby="menuLink">
+                            <li>
+                                <a class="dropdown-item" href="Hamburger"></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Hot Dog</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Batatas Recheadas</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Petiscos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Bebidas</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <div id="carouselExamploControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/hamburger.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/hotdog.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/potato.png" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/snacks.png" class="d-block" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev" aria-hidden="true"></span>
+            <span class="viually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

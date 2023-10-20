@@ -5,3 +5,11 @@ body {
 .dropdown-menu {
     background-color: #ffec5f;
 }
+
+.carousel {
+    background-color: #000000;
+}
+
+.carousel-item img {
+    margin: auto;
+}
